@@ -1,0 +1,110 @@
+body {
+  font-family: Arial;
+  background-color: #f4f4f4;
+  padding: 30px;
+  color: #333;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(35, 35, 218, 1) 0%, rgba(31, 31, 197, 1) 59%, rgba(0, 212, 255, 1) 100%);
+}
+
+.titulo {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  /* background-color: #38bdf8; */
+  color: black;
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background-color: #fafafa;
+  padding: 20px 30px;
+  border-radius: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin: 5px;
+  line-break: anywhere;
+}
+
+button {
+  background-color: #333974;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: .3s;
+  margin-right: 10px;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.filerAndSearch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+select {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 100%;
+  background-color: white;
+  margin-left: 5px;
+}
+
+.todo {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  background-color: #dcdcdc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  border-radius: 10px;
+  width: 80%;
+}
+
+
+.criador2 {
+  margin-top: 10px;
+  font-size: small;
+}
+
+@media only screen and (max-width: 600px) {
+  .todo {
+    flex-direction: column;
+    row-gap: 5px;
+  }
+
+  .content {
+    width: 100%;
+  }
+  .filerAndSearch {
+    flex-direction: column;
+    row-gap: 5px;
+    align-items: start;
+    padding-right: 0px;
+  }
+
+  select {
+    padding-right: 120px;
+  }
+}

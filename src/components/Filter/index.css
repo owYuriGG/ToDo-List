@@ -1,0 +1,6 @@
+.filter-options{
+    align-items: baseline;
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+}

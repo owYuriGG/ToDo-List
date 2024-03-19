@@ -1,0 +1,15 @@
+form {
+    justify-content:space-between;
+    display: flex;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.criarTarefa {
+    border-bottom: 1px solid #555;
+}
+
+.todo-list {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #555;
+}
