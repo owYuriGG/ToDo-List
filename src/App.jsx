@@ -48,20 +48,6 @@ function App() {
 
   }
 
-  // Função para editar uma tarefa
-
-  // const editTodos = (id, text, isCompleted) => {
-  //   removeTodo(id)
-  //   newTodos = [...todos {
-  //     id: id,
-  //     text: text,
-  //     isCompleted: isCompleted,
-  //   }
-  //   setTodos(newTodos)
-  // }
-
-
-
   // Função para remover uma tarefa
   const removeTodo = (id) => {
     // aqui uma nova array é criada, contendo todas as tarefas
